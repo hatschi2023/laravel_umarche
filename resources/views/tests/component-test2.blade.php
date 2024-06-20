@@ -2,7 +2,9 @@
 <x-tests.app>
     <x-slot name="header">ヘッダー2</x-slot>
 
-    コンポーネント2
-    <x-tests.card title="タイトル2" content="本文2"/>
+    コンポーネントテスト2
+    <x-tests.test-class-base-component classBaseMessage="メッセージです"/>
+    <div class="mb-4"></div>
+    <x-tests.test-class-base-component classBaseMessage="メッセージです" defaultMessage="初期値から変更しています"/>
 
 </x-tests.app>

@@ -26,5 +26,6 @@ class AppServiceProvider extends ServiceProvider
     {
         Blade::component('tests.card', 'card');
         Blade::component('tests.app', 'app');
+        Blade::component('tests.test-class-base-component', \App\View\Components\TestClassBase::class);
     }
 }
