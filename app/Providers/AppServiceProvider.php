@@ -29,3 +29,4 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('tests.test-class-base-component', \App\View\Components\TestClassBase::class);
     }
 }
+
