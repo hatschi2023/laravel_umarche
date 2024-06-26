@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\Admin;
+use App\Models\Shop;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -18,6 +19,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             AdminSeeder::class,
             OwnerSeeder::class,
+            ShopSeeder::class,
         ]);
     }
 }
